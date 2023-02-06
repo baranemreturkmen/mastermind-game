@@ -12,7 +12,7 @@ export class App{
         //GameViewModel class'ı bir köprü aslında. View ile Model class'ları arasında.
         //Views -> app.js(DOM API) -> GameViewModel -> Models şeklinde bir akış var.
 
-        //Aşağıdaki if'i undefined is not an object hatasını çözmek için koydum.
+        //Aşağıdaki if'i undefined is not an object hatasını çözmek için koydum..
         if (typeof(this.playButton) != 'undefined'){
             this.playButton.addEventListener("click",(event) => {
                 let guess = this.guessInputText.value;
